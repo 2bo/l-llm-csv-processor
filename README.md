@@ -74,10 +74,10 @@ Python の標準ライブラリを利用して CSV を堅牢に処理し、Ollam
 
    ```csv
    text
-   今日は良い天気です。
-   明日は雨が降るかもしれません。
-   あなたの名前は何ですか？
-   新しい技術がどんどん登場しています。
+   The weather is beautiful today.
+   I love spending time with my family.
+   She works at a local coffee shop.
+   The children are playing in the park.
    ```
 
 ## 使用方法
@@ -118,6 +118,6 @@ Python の標準ライブラリを利用して CSV を堅牢に処理し、Ollam
 
 ## 注意事項
 
-- 本スクリプトは、Ollama CLI がインストール済みで PATH に追加され、phi4 モデルがローカルで利用可能な状態であることを前提としています。
+- 本スクリプトは、Ollama CLI がインストール済みで PATH に追加され、phi4 モデルがローカルで利用可能な状態であることを前提としています。phi4以外のモデルを使用する場合は、`-m` オプションで指定してください。
 - プロンプトの構造は、タスクに応じて適宜調整してください（例えば、翻訳以外の処理や、より複雑な指示の場合）。
 - 出力CSVファイルには、入力文（input）と応答（response）の2つのカラムが含まれます。
